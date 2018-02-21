@@ -1,6 +1,6 @@
 # ConceptaApi
 
-Welcome to Concepta .NET Api test project!
+Welcome to Concepta .NET Api test project
 
 ## Documentation
 
@@ -45,4 +45,4 @@ Welcome to Concepta .NET Api test project!
 
 ## License
 
-2018 - Lorena Lira
+2018 - By Lorena Lira
