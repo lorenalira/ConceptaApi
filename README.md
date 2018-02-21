@@ -11,22 +11,22 @@ Welcome to Concepta .NET Api test project!
 1) Submit a POST request to `http://localhost:8080/api/TicketSearch`, considering the following properties:
 
     a) Header:
-        - Content-Type  application/json
+        * Content-Type  application/json
  
     b) Body (request payload):
-        - Raw json
-            - Example: ```{
-                        	"Language": "ENG",
-                        	"Currency": "USD",
-                        	"Destination": "MCO",
-                        	"DateFrom": "11/26/2016",
-                        	"DateTO": "11/29/2016",
-                        	"Occupancy": {
-                        		"AdultCount": "1",
-                        		"ChildCount": "1",
-                        		"ChildAges": ["10"]
-                        	}
-                        }```
+        * Raw json example: 
+        ```{
+                "Language": "ENG",
+                "Currency": "USD",
+                "Destination": "MCO",
+                "DateFrom": "11/26/2016",
+                "DateTO": "11/29/2016",
+                "Occupancy": {
+                    "AdultCount": "1",
+                    "ChildCount": "1",
+                    "ChildAges": ["10"]
+                }
+           }```
 
 2) Alternatively you can load and run the Postman collection:
 
