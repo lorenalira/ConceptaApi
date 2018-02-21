@@ -30,7 +30,7 @@ Welcome to Concepta .NET Api test project!
 
 2) Alternatively you can load and run the Postman collection:
 
-    `conceptatest.postman_collection.json`
+    `conceptaapi.postman_collection.json`
 
 ## License
 
