@@ -15,7 +15,7 @@ Welcome to Concepta .NET Api test project!
  
     b) Body (request payload):
         - Raw json
-            - Example: `{
+            - Example: ```{
                         	"Language": "ENG",
                         	"Currency": "USD",
                         	"Destination": "MCO",
@@ -26,7 +26,7 @@ Welcome to Concepta .NET Api test project!
                         		"ChildCount": "1",
                         		"ChildAges": ["10"]
                         	}
-                        }`
+                        }```
 
 2) Alternatively you can load and run the Postman collection:
 
