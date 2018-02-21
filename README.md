@@ -17,7 +17,8 @@ Welcome to Concepta .NET Api test project!
     
     b) Body (request payload):
         
-        * Raw json example: 
+        * Raw json example:
+        
         ```{
                 "Language": "ENG",
                 "Currency": "USD",
