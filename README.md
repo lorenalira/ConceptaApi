@@ -19,7 +19,7 @@ Welcome to Concepta .NET Api test project!
         
         * Raw json example:
         
-        ```{
+           {
                 "Language": "ENG",
                 "Currency": "USD",
                 "Destination": "MCO",
@@ -30,7 +30,7 @@ Welcome to Concepta .NET Api test project!
                     "ChildCount": "1",
                     "ChildAges": ["10"]
                 }
-           }```
+           }
 
 2) Alternatively you can load and run the Postman collection:
 
