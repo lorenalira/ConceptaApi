@@ -4,7 +4,7 @@ Welcome to Concepta .NET Api test project!
 
 ## Documentation
 
-1) Open `docs` folder to learn more about the API endpoints and the request's formats.
+1) Open `Docs` folder to learn more about the API endpoints and the request's formats.
 
 ## Testing
 
