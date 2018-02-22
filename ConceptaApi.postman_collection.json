@@ -1,0 +1,215 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Concepta",
+		"_postman_id": "ff7973a1-fac9-4ab2-93dc-04f427e2d7ed",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://travellogix.api.test.conceptsol.com/Token",
+			"request": {
+				"url": "http://travellogix.api.test.conceptsol.com/Token",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "grant_type=password&username=test1%40test2.com&password=Aa234567%21"
+				},
+				"description": "Authorization token"
+			},
+			"response": [
+				{
+					"id": "2d7b06a7-72db-4db0-ba96-dcbe48a26c54",
+					"name": "Authorization response",
+					"originalRequest": {
+						"url": "http://travellogix.api.test.conceptsol.com/Token",
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								"g",
+								"r",
+								"a",
+								"n",
+								"t",
+								"_",
+								"t",
+								"y",
+								"p",
+								"e",
+								"=",
+								"p",
+								"a",
+								"s",
+								"s",
+								"w",
+								"o",
+								"r",
+								"d",
+								"&",
+								"u",
+								"s",
+								"e",
+								"r",
+								"n",
+								"a",
+								"m",
+								"e",
+								"=",
+								"t",
+								"e",
+								"s",
+								"t",
+								"1",
+								"%",
+								"4",
+								"0",
+								"t",
+								"e",
+								"s",
+								"t",
+								"2",
+								".",
+								"c",
+								"o",
+								"m",
+								"&",
+								"p",
+								"a",
+								"s",
+								"s",
+								"w",
+								"o",
+								"r",
+								"d",
+								"=",
+								"A",
+								"a",
+								"2",
+								"3",
+								"4",
+								"5",
+								"6",
+								"7",
+								"%",
+								"2",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "javascript",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Cache-Control",
+							"key": "Cache-Control",
+							"value": "no-cache",
+							"description": ""
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "708",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Fri, 09 Sep 2016 17:52:10 GMT",
+							"description": ""
+						},
+						{
+							"name": "Expires",
+							"key": "Expires",
+							"value": "-1",
+							"description": ""
+						},
+						{
+							"name": "Pragma",
+							"key": "Pragma",
+							"value": "no-cache",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Microsoft-IIS/8.0",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "ASP.NET",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "680",
+					"body": "{\"access_token\":\"GbN1gbTKqr9D_eS-bXoFN1hjIXCKHovaoYsiPufSz9vqVKuyyv1QArQ1c8MryESa_eENFKTog_e4LIwXYzE_lmPw1_DODkTP5-5B-HUDuy7n9ep1Hu37R24QtyruMF8Sy0s0DzgJ4ADKV1tPtVYkLF2gdGFKH0QxWgkT28jEIU9y5Dh6eh_rklHsvtOHlwqiwCuFOEegcagXkZytpiQDORFQKVdaLFoQRbNhZ1XnzeEF1oJj8q6Y7zifgwBfTBnLFgTrUp6pGA1IKwjCAdU0QRDamYJLbwdwPu-yuvQpArgKVguCMWGJmJQFb-gPa8ON4ZtFIDo2k5zAh6mNXjFLWpTKoQ1hrw-1vbVsA725eV6Cz0MmKsMpm_gwxjuL6rPHsy6ZsSczMR3W-sU4DMjHzUSGZ_4r6aTt06PZyykXlHmorgVdGGPml7Xe0fv4h9IPEVneC9DcHubdkUW_j1Y4ly-N5xxcXpBIh038BfvGhUBMoDE8mk7Kd0azWyplfxMHyuTDkGFqE5O-SH_nCh1wHQ\",\"token_type\":\"bearer\",\"expires_in\":86399,\"userName\":\"test1@test2.com\",\".issued\":\"Fri, 09 Sep 2016 17:52:09 GMT\",\".expires\":\"Sat, 10 Sep 2016 17:52:09 GMT\"}"
+				}
+			]
+		},
+		{
+			"name": "http://travellogix.api.test.conceptsol.com/api/Ticket/Search",
+			"request": {
+				"url": "http://travellogix.api.test.conceptsol.com/api/Ticket/Search",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer vsAg5HIiXZRGsqv7fNK44hV6C7lzhEDiWGe8TT11fnxM6WKRS7Zm6cUMWn8YdvqK-Nt4vxf2wia1M_1VXrB1TCbQg817TmkAQTR54Bsubk0C8QHRJJ8p0y5M84HUGHqJw3XaAIlNme1EphIENSB4GY1npLUiXZ1fjXDil2vuiba31DtCk-X3JKavWDrP0e96qE7mNzifpeNvlDUhbcRSyfaydZVqJfOtTrdEu0MP-isvX5HA2igkqPiKiZrkZMzWRlStFbw2h6shlPcpxaeDVhNKpvPKFBzk8qMZcp68jPWQjpZ4KWlG8XhY5tThbNgNT_gMrcWBPDuKv4nk2aIR4L6Lcw6u-9DwtUDjAHwqopXNsJIgYKNa2zdUsDj_H99jmIb3b0iK8L9N0cvneI9ZkRZ4Ome_CsGvVKNwVacrU_ZRadFZXCD5RzFOgDn9UtpDlFxmiowmC65vv6YaJuOsevmP4ls9dptIwltDRiBds2SqerviTm-C8kGxez-vFBzw6lfA6YUBs4PZFBDyZt5Waw",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Language\": \"ENG\",\r\n  \"Currency\": \"USD\",\r\n  \"Destination\": \"MCO\",\r\n  \"DateFrom\": \"11/26/2018\",\r\n  \"DateTO\": \"11/29/2018\",\r\n  \"Occupancy\": {\r\n    \"AdultCount\": \"1\",\r\n    \"ChildCount\": \"1\",\r\n    \"ChildAges\": [\"10\"]\r\n  }\r\n}"
+				},
+				"description": "Ticket Search"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/Tickets",
+			"request": {
+				"url": "http://localhost:5000/api/Tickets",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer RCLXNhykf9x33N31DZROrVJSizsWHODDvB5rkJkJxijESTYm-TixyXPzY61mU46AeeYO8OAPCZ1upD6xS0sXEyc8tk8LblvT_yuyQsXlom78TZ5Eov0Gjo_5_sFWP9FKONTbm2DbFYNoXdJWv-1SjxdOB9MCy2rCSi1RvP1CzzFW5maVdngSH1a_jsz0Ua2ny_pwbTkdoy2VLyP08hMGA-R2bChPSnEJqv8rH2isJB_0F0zONVBkECTEs54q-jnGswHc6SG1BkEy2StH-s0r8TGn4QQS7yoTxza6SZdbm8PImmBzpvDZQ2l2mrB6fDBYXHBgLRmFJ4vnQI3I3aYoq_CqL73mIfC2E8_MVZtb37Z5crNfQguUsh32QkBn0NYhWkfx5PGSTyhnLrePrBobl7vfmwz73uQPdqfknIGbjaQrQfaGVWAOPm1OAY-tyoCXdl6Hkaf1ZSyfmdCAWHE9ZaTWFnnCKD7DxGX_VkK8wJJyA9tRNIpDFYmuxe1hdi2i5rvxl-HyR9fRTF5qDqsx8w",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Language\": \"ENG\",\r\n  \"Currency\": \"USD\",\r\n  \"Destination\": \"MCO\",\r\n  \"DateFrom\": \"11/26/2018\",\r\n  \"DateTO\": \"11/29/2018\",\r\n  \"Occupancy\": {\r\n    \"AdultCount\": \"1\",\r\n    \"ChildCount\": \"1\",\r\n    \"ChildAges\": [\"10\"]\r\n  }\r\n}"
+				},
+				"description": "Heroku Tickets"
+			},
+			"response": []
+		}
+	]
+}
