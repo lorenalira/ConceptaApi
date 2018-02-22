@@ -2,7 +2,7 @@
 	"variables": [],
 	"info": {
 		"name": "Concepta",
-		"_postman_id": "ff7973a1-fac9-4ab2-93dc-04f427e2d7ed",
+		"_postman_id": "f8145ba9-450b-04d5-15cd-3ea3bea86b17",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
@@ -21,7 +21,7 @@
 			},
 			"response": [
 				{
-					"id": "2d7b06a7-72db-4db0-ba96-dcbe48a26c54",
+					"id": "ad569d18-b4f7-445b-83b9-94e3e65396d7",
 					"name": "Authorization response",
 					"originalRequest": {
 						"url": "http://travellogix.api.test.conceptsol.com/Token",
@@ -98,12 +98,12 @@
 								"2",
 								"1"
 							]
-						}
+						},
+						"description": ""
 					},
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "javascript",
-					"_postman_previewtype": "html",
 					"header": [
 						{
 							"name": "Cache-Control",
@@ -168,13 +168,11 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
+						"value": "application/json"
 					},
 					{
 						"key": "Authorization",
-						"value": "Bearer vsAg5HIiXZRGsqv7fNK44hV6C7lzhEDiWGe8TT11fnxM6WKRS7Zm6cUMWn8YdvqK-Nt4vxf2wia1M_1VXrB1TCbQg817TmkAQTR54Bsubk0C8QHRJJ8p0y5M84HUGHqJw3XaAIlNme1EphIENSB4GY1npLUiXZ1fjXDil2vuiba31DtCk-X3JKavWDrP0e96qE7mNzifpeNvlDUhbcRSyfaydZVqJfOtTrdEu0MP-isvX5HA2igkqPiKiZrkZMzWRlStFbw2h6shlPcpxaeDVhNKpvPKFBzk8qMZcp68jPWQjpZ4KWlG8XhY5tThbNgNT_gMrcWBPDuKv4nk2aIR4L6Lcw6u-9DwtUDjAHwqopXNsJIgYKNa2zdUsDj_H99jmIb3b0iK8L9N0cvneI9ZkRZ4Ome_CsGvVKNwVacrU_ZRadFZXCD5RzFOgDn9UtpDlFxmiowmC65vv6YaJuOsevmP4ls9dptIwltDRiBds2SqerviTm-C8kGxez-vFBzw6lfA6YUBs4PZFBDyZt5Waw",
-						"description": ""
+						"value": "Bearer vsAg5HIiXZRGsqv7fNK44hV6C7lzhEDiWGe8TT11fnxM6WKRS7Zm6cUMWn8YdvqK-Nt4vxf2wia1M_1VXrB1TCbQg817TmkAQTR54Bsubk0C8QHRJJ8p0y5M84HUGHqJw3XaAIlNme1EphIENSB4GY1npLUiXZ1fjXDil2vuiba31DtCk-X3JKavWDrP0e96qE7mNzifpeNvlDUhbcRSyfaydZVqJfOtTrdEu0MP-isvX5HA2igkqPiKiZrkZMzWRlStFbw2h6shlPcpxaeDVhNKpvPKFBzk8qMZcp68jPWQjpZ4KWlG8XhY5tThbNgNT_gMrcWBPDuKv4nk2aIR4L6Lcw6u-9DwtUDjAHwqopXNsJIgYKNa2zdUsDj_H99jmIb3b0iK8L9N0cvneI9ZkRZ4Ome_CsGvVKNwVacrU_ZRadFZXCD5RzFOgDn9UtpDlFxmiowmC65vv6YaJuOsevmP4ls9dptIwltDRiBds2SqerviTm-C8kGxez-vFBzw6lfA6YUBs4PZFBDyZt5Waw"
 					}
 				],
 				"body": {
@@ -186,9 +184,9 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:5000/api/Tickets",
+			"name": "https://concepta-api.herokuapp.com/api/Tickets",
 			"request": {
-				"url": "http://localhost:5000/api/Tickets",
+				"url": "https://concepta-api.herokuapp.com/api/Tickets",
 				"method": "POST",
 				"header": [
 					{
