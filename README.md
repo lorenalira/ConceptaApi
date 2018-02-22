@@ -8,7 +8,7 @@ Welcome to Concepta .NET Api test project
 
 ## Testing
 
-1) Submit a POST request to `http://localhost:5000/api/Tickets`, considering the following properties:
+1) Submit a POST request to `https://concepta-api.herokuapp.com/api/Tickets`, considering the following properties:
    
    a) Header:
         
@@ -23,8 +23,8 @@ Welcome to Concepta .NET Api test project
                 "Language": "ENG",
                 "Currency": "USD",
                 "Destination": "MCO",
-                "DateFrom": "11/26/2016",
-                "DateTO": "11/29/2016",
+                "DateFrom": "11/26/2018",
+                "DateTO": "11/29/2018",
                 "Occupancy": {
                     "AdultCount": "1",
                     "ChildCount": "1",
