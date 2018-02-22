@@ -40,9 +40,12 @@ Welcome to Concepta .NET Api test project
 
 1) You can launch the app from the Terminal:
 
-    > C:\Program Files\dotnet\dotnet build C:\ConceptaAPI\ConceptaAPI.csproj
-    > C:\Program Files\dotnet\dotnet C:\ConceptaAPI\bin\Debug\netcoreapp2.0\ConceptaAPI.dll
 
+    > C:\Program Files\dotnet\dotnet build C:\ConceptaAPI\ConceptaAPI.csproj
+    
+    > C:\Program Files\dotnet\dotnet C:\ConceptaAPI\bin\Debug\netcoreapp2.0\ConceptaAPI.dll
+   
+  
 ## License
 
 2018 - By Lorena Lira
